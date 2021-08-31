@@ -4,6 +4,8 @@
 #   若猜测小了，则修改low为mid+1;
 #   若猜测大了，则修改high为mid-1;
 #   循环直到待查找的元素只剩一个，若没有符合的元素，则返回None
+
+# 时间复杂度：O(logn)
 import math
 from selectionSort import selectionSort
 
