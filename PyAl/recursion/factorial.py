@@ -1,4 +1,4 @@
-# function:实现阶乘
+# fact:用递归实现阶乘
 # arg: number
 # return: number's factorial
 def fact(x):
