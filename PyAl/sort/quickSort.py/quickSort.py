@@ -27,5 +27,5 @@ print(quickSort(list))
     1   2   3,4,7
             3  4,7
                 4  7
-
+    5*3 = n*logn
 '''
