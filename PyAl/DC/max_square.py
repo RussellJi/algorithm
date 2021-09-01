@@ -6,6 +6,12 @@
             递归求剩余长方形中的满足条件的正方形。
             
     基准条件（跳出递归的条件）：长和宽相等。
+
+    tip:
+        list = []
+        list.append()
+        
+        [2,3].append() //error
 '''
 def max_square(x):
     if x[0] == x[1]:
