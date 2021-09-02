@@ -7,7 +7,6 @@
 
 # 时间复杂度：O(logn)
 import math
-from selectionSort import selectionSort
 
 def binarySearch(list,elment):
 
@@ -28,8 +27,7 @@ def binarySearch(list,elment):
             low = mid + 1
     return None
 
-list = [1,3,7,5]
-list = selectionSort(list)
+list = [1,3,5,7]
 print(binarySearch(list,7))
 print(binarySearch(list,-2))
 print(binarySearch(list,1))
